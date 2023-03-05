@@ -1,0 +1,59 @@
+/* Set global background color */
+body {
+    background-color: #F9F9F9;
+  }
+  
+  /* Style the heading */
+  h1 {
+    color: #FF5733;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+  }
+  
+  /* Style the form */
+  form {
+    background-color: #FFFFFF;
+    border: 2px solid #FFC300;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4A4A4A;
+  }
+  
+  /* Style the form inputs */
+  input[type="text"],
+  input[type="datetime-local"],
+  input[type="file"] {
+    border: 2px solid #DDDDDD;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #FF5733;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #FFC300;
+  }
+  

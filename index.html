@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Schedule Posts</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-j+Q2nMfEg6Z+5/MtHij9JDrA56+I5BQy5r5xDzKkW/NBdpe5xGx/IoPFtLXjHbNk1B87if2b5N5AbjW5pO58Gw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+  <h1>Schedule Posts</h1>
+  <form id="postForm">
+    <label for="caption">Caption:</label>
+    <input type="text" id="caption" name="caption"><br><br>
+    <label for="image">Image:</label>
+    <input type="file" id="image" name="image"><br><br>
+    <label for="time">Time to post:</label>
+    <input type="datetime-local" id="time" name="time"><br><br>
+    <button type="submit" id="submit" onclick="submitted()">Schedule Post</button>
+  </form>
+  <script src="app.js"></script>
+</body>
+</html>
